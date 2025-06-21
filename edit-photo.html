@@ -40,9 +40,32 @@
         </nav>
     </header>
 
-    <main>
+    <main class="edit-container">
+        <h1>Edit Photo</h1>
+        <p class="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non nisi bibendum,
+        dignissim tortor vitae, feugiat elit. In dictum massa, ac sodales sodales purus
+        facilisis id. Vestibulum ut orci efficitur est semper congue.
+        </p>
 
-    </main>
+        <div class="editor-area">
+        <div class="image-box">
+            <img id="editable-image" src="sample.jpg" alt="Editable" />
+        </div>
+
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <button onclick="cropper.crop()">Crop</button>
+            <button onclick="cropper.clear()">Clear</button>
+            <button onclick="cropper.rotate(90)">↻</button>
+            <button onclick="cropper.zoom(0.1)">Zoom In</button>
+            <button onclick="cropper.zoom(-0.1)">Zoom Out</button>
+            <button onclick="cropper.reset()">Reset</button>
+        </div>
+        </div>
+
+        <button class="submit-btn">Save and Submit</button>
+  </main>
     
     <!-- FOOTER -->
     <footer>

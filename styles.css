@@ -134,6 +134,219 @@ section p {
   margin-bottom: 10px;
 }
 
+/* Gallery */
+.gallery-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.gallery-description {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.main-image {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 300px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #aaa;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 45px;
+  background-color: #d0d0d0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.thumbnail.active {
+  border-color: #666;
+}
+
+.gallery-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #222;
+}
+
+/* Edit Page */
+.edit-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.edit-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.editor-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-box {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 1 / 1;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.image-box img {
+  max-width: 100%;
+  display: block;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toolbar button,
+.submit-btn {
+  padding: 10px 15px;
+  border: none;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.toolbar button:hover,
+.submit-btn:hover {
+  background-color: #222;
+}
+
+/* Touch Up Request Page */
+.touchup-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.touchup-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.image-section {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-placeholder {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 1 / 1;
+  background-color: #e0e0e0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #aaa;
+}
+
+.touchup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.touchup-form textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 120px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.touchup-form button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.touchup-form button:hover {
+  background-color: #222;
+}
+
 /* Contact Page */
 .contact-section {
   padding: 40px 20px;
